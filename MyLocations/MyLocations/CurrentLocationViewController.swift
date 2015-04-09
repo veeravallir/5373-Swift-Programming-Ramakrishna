@@ -84,24 +84,15 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
         if let location = location{
             latitudeLabel.text = String(format: "%.8f", location.coordinate.latitude)
             longitudeLabel.text = String(format: "%.8f", location.coordinate.longitude)
+            let model = (self.tabBarController as CustomTabBarController).model
+            model.lat =  location.coordinate.latitude
+            model.lon = location.coordinate.longitude
         }
     }
     
-    
     override func viewWillAppear(animated: Bool) {
         // Get a reference to the model data from the custom tab bar controller.
-        let model = (self.tabBarController as CustomTabBarController).model
         
-        // Show the we can access and update the model data from the first tab.
-        // Let's just increase the age each time this tab appears and assign
-        // a random name.
-        //model.age++
-        
-        //let names = ["Larry", "Curly", "Moe"]
-        //model.name = names[Int(arc4random_uniform(UInt32(names.count)))]
-        
-        
-        //model.lat = location.coordinate.latitude
     }
     
 }

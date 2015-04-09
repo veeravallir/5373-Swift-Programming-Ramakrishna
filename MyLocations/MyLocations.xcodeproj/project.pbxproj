@@ -14,7 +14,7 @@
 		857CC4FB1AC1FDF000AF61ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857CC4FA1AC1FDF000AF61ED /* Images.xcassets */; };
 		857CC4FE1AC1FDF000AF61ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857CC4FC1AC1FDF000AF61ED /* LaunchScreen.xib */; };
 		857CC50A1AC1FDF000AF61ED /* MyLocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CC5091AC1FDF000AF61ED /* MyLocationsTests.swift */; };
-		BF7DDC861AD58F4D00D60889 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7DDC851AD58F4D00D60889 /* CustomTabBarController.swift */; };
+		BF9463741AD5ABDF0059482F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9463731AD5ABDF0059482F /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		857CC5031AC1FDF000AF61ED /* MyLocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		857CC5081AC1FDF000AF61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857CC5091AC1FDF000AF61ED /* MyLocationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationsTests.swift; sourceTree = "<group>"; };
-		BF7DDC851AD58F4D00D60889 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = "/Users/rveeravalli/Desktop/RK/5373-Swift-Programming/MyLocations/CustomTabBarController.swift"; sourceTree = "<absolute>"; };
+		BF9463731AD5ABDF0059482F /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../../../../../Users/rveeravalli/Desktop/MyLocations/MyLocations/CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				857CC4F11AC1FDF000AF61ED /* AppDelegate.swift */,
-				BF7DDC851AD58F4D00D60889 /* CustomTabBarController.swift */,
+				BF9463731AD5ABDF0059482F /* CustomTabBarController.swift */,
 				857CC4F31AC1FDF000AF61ED /* CurrentLocationViewController.swift */,
 				857CC4F51AC1FDF000AF61ED /* SecondViewController.swift */,
 				857CC4F71AC1FDF000AF61ED /* Main.storyboard */,
@@ -221,7 +221,7 @@
 			files = (
 				857CC4F61AC1FDF000AF61ED /* SecondViewController.swift in Sources */,
 				857CC4F21AC1FDF000AF61ED /* AppDelegate.swift in Sources */,
-				BF7DDC861AD58F4D00D60889 /* CustomTabBarController.swift in Sources */,
+				BF9463741AD5ABDF0059482F /* CustomTabBarController.swift in Sources */,
 				857CC4F41AC1FDF000AF61ED /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

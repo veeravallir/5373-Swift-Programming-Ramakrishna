@@ -12,7 +12,7 @@ import UIKit
 // This class holds the data for my model.
 class ModelData {
     var lat = 0.0
-    var long = 0.0
+    var lon = 0.0
 }
 
 class CustomTabBarController: UITabBarController {

@@ -14,7 +14,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1209B2A30B1DA1FF94CCA92428D258D39D448F96</key>
-		<string>5373-Swift-Programming/</string>
+		<string>Desktop/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/rugbyprof/5373-Swift-Programming.git</string>
@@ -30,7 +30,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>1209B2A30B1DA1FF94CCA92428D258D39D448F96</string>
 			<key>IDESourceControlWCCName</key>
-			<string>5373-Swift-Programming</string>
+			<string>Desktop</string>
 		</dict>
 	</array>
 </dict>

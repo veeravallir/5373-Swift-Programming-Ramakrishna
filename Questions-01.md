@@ -10,9 +10,9 @@ class Person {
    let gender = "female"
 	}
    let john = Person()
- 	john.firstName = "John"
-john.lastName = "Doe"
-john.gender = "male"
+   john.firstName = "John"
+   john.lastName = "Doe"
+   john.gender = "male"
 
 Does the above code work? if works, what is the output, if not why?
 ```
